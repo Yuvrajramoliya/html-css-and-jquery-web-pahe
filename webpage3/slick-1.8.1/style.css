@@ -1,0 +1,493 @@
+html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 80%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+    header{
+      height: 100vh;
+      width: 100%;
+      border: 1px solid black;
+    }
+    #main{
+      height: 120px;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background: white;
+      border: 1px solid black;
+    }
+    #logo img{
+      height: 120px;
+    }
+    nav ul li{
+      display: inline-block;
+    }
+    nav ul li a{
+      text-decoration: none;
+      text-transform: uppercase;
+      color: black;
+      padding: 10px;
+    }
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 95%;
+      height: 84%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    #w{
+      height: 50vh;
+      width: 80%;
+      /* border: 1px solid black; */
+      margin-left: 10%;
+      margin-top: 50px;
+    }
+    #w h1{
+      text-align: center;
+    }
+    #w-main{
+      height: 48vh;
+      width: 100%;
+      /* border: 1px solid black; */
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+    }
+    #w1{
+      height: 30vh;
+      width: 30%;
+      /* border: 1px solid black; */
+      box-shadow: 2px 2px 2px 1px black;
+    }
+    #w1 i{
+      /* text-align: center; */
+      /* margin-left: 45%; */
+      margin-top: 10%;
+      font-size: 30px;
+    }
+    #w1 p{
+      font-family: monospace;
+    }
+    #w1 a{
+      padding: 5px;
+      background: skyblue;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    #abt{
+      height: 50vh;
+      width: 80%;
+      /* border: 1px solid black; */
+      margin-left: 10%;
+      margin-top: 80px;
+    }
+    #abt-main{
+      height: 50vh;
+      width: 100%;
+      /* border: 1px solid black; */
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    #abt1{
+      height: 50vh;
+      width: 45%;
+    }
+    #abt1 img{
+      height: 100%;
+      width: 100%;
+    }
+    #abt1 h1{
+      font-size: 30px;
+      text-decoration: underline;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    #abt1 p{
+        margin-bottom: 20px;
+    }
+    #abt1 a{
+        padding: 5px;
+        background: skyblue;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    #t{
+      height: 50vh;
+      width: 80%;
+      /* border: 1px solid black; */
+      margin-left: 10%;
+      margin-top: 50px;
+    }
+    #t h1{
+      text-align: center;
+      text-decoration: underline;
+    }
+    #t-main{
+      height: 48vh;
+      width: 100%;
+      /* border: 1px solid black; */
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    #t1{
+      height: 48vh;
+      width: 30%;
+    }
+    #t1 img{
+      width: 80%;
+      height: 20vh;
+    }
+    footer{
+      height: 20vh;
+      width: 100%;
+      border: 1px solid black;
+      margin-top: 50px;
+    }
+    #ft-main{
+      height: 20vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    #ft1 img{
+      height: 20vh;
+      width: auto;
+
+    }
+    #bt1{
+      display: none;
+    }
+
+    @media (min-width:480px) and (max-width:720px)
+     {
+      #main{
+        height: auto;
+        width: auto;
+        margin-bottom: 160px;
+        border: none;
+      }
+      #bt1{
+        display: block;
+      }
+      nav {
+        display: none;
+        position: absolute;
+        top: 25%;
+
+      }
+      nav ul li {
+        display: block;
+      }
+      header{
+        border: none;
+      }
+      #main{
+        border: none;
+      }
+      #w{
+        height: auto;
+        width: auto;
+      }
+      #w-main{
+        height: auto;
+        width: auto;
+      }
+      #w1{
+        height: auto;
+        /* width: auto; */
+      }
+      #w1 p{
+        font-size: 10px;
+      }
+      #w1 a{
+        padding: 2px;
+      }
+      #abt{
+        height: auto;
+        width: auto;
+      }
+      #abt-main{
+        height: auto;
+        width: auto;
+      }
+      #abt1{
+        height: auto;
+        /* width: auto; */
+      }
+      #abt1 p{
+        font-size: 10px;
+      }
+      #abt1 h1{
+        font-size: 20px;
+      }
+      #t{
+        height: auto;
+        width: auto;
+      }
+      #t-main{
+        height: auto;
+        width: auto;
+      }
+      footer{
+        height: auto;
+        width: auto;
+        border: none;
+      }
+      #ft-main{
+        height: auto;
+        width: auto;
+      }
+
+    }
+
+    @media (min-width:360px) and (max-width:480px)
+     {
+      header{
+        height: auto;
+        position: relative;
+        /* width: auto; */
+      }
+      #main{
+        height: auto;
+        width: auto;
+        margin-bottom: 160px;
+        border: none;
+      }
+      #bt1{
+        display: block;
+      }
+      nav {
+        display: none;
+        position: absolute;
+        top: 25%;
+
+      }
+      nav ul li {
+        display: block;
+      }
+      #w{
+        height: auto;
+        width: 80%;
+        /* margin: 0; */
+      }
+      #w-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        margin: 0;
+      }
+      #w1{
+        height: auto;
+        width: auto;
+        margin-top: 10px;
+      }
+      #w1 a{
+        padding: 2px;
+      }
+      .regular{
+        height: auto;
+        width: 80%;
+      }
+      #abt{
+        height: auto;
+        width: auto;
+      }
+      #abt-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+      }
+      #abt1{
+        height: auto;
+        width: auto;
+      }
+      #t{
+        height: auto;
+        width: auto;
+      }
+      #t-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+      }
+      #t1{
+        height: auto;
+        width: auto;
+      }
+      footer{
+        height: auto;
+        width: auto;
+      }
+      #ft-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+      }
+      #ft1{
+        height: auto;
+        width: auto;
+        text-align: center;
+      }
+      
+    }
+
+    @media (min-width:0px) and (max-width:360px)
+     {
+      header{
+        height: auto;
+        position: relative;
+        /* width: auto; */
+      }
+      #main{
+        height: auto;
+        width: auto;
+        margin-bottom: 120px;
+        border: none;
+      }
+      #bt1{
+        display: block;
+      }
+      nav {
+        display: none;
+        position: absolute;
+        top: 30%;
+
+      }
+      nav ul li {
+        display: block;
+      }
+      #w{
+        height: auto;
+        width: 80%;
+        /* margin: 0; */
+      }
+      #w-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        margin: 0;
+      }
+      #w1{
+        height: auto;
+        width: auto;
+        margin-top: 10px;
+      }
+      #w1 a{
+        padding: 2px;
+      }
+      .regular{
+        height: auto;
+        width: 80%;
+      }
+      #abt{
+        height: auto;
+        width: auto;
+      }
+      #abt-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+      }
+      #abt1{
+        height: auto;
+        width: auto;
+      }
+      #t{
+        height: auto;
+        width: auto;
+      }
+      #t-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+      }
+      #t1{
+        height: auto;
+        width: auto;
+      }
+      footer{
+        height: auto;
+        width: auto;
+      }
+      #ft-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+      }
+      #ft1{
+        height: auto;
+        width: auto;
+        text-align: center;
+      }
+
+    }
